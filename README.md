@@ -8,16 +8,16 @@ Note: You can learn about this topic from the official OpenCV documentation [her
 #### Introduction
 Image transformation is a coordinate-changing function that transforms (x, y) coordinates in one coordinate system to (x', y') points in another.
 
-![image.png](attachment:image.png)
+<img src="https://i.ibb.co/wcc125Z/Unknown.png" alt="Unknown" border="0">
 
 > For example, if we plot the same point in u-v coordinate with (2, 3) points in x-y coordinate, the same point is represented in multiple ways, as illustrated below:
 
-> ![image.png](attachment:image.png)
+> <img src="https://i.ibb.co/dQWTWH7/Unknown-1.png" alt="Unknown-1" border="0">
 
 ## The Use of Image Transformation
 The geometric relationship between the comic book and the image on the right is based on the similarity transformation in the image below (rotation, translation and scaling). If we want to train a machine learning model to find this comic book, we'll need to change the form and angle of the image.
 
-![image.png](attachment:image.png)
+<img src="https://i.ibb.co/PN0TzVJ/Unknown-2.png" alt="Unknown-2" border="0">
 
 In the preprocessing phase of images for machine learning, image alteration techniques can be extremely useful.
 
